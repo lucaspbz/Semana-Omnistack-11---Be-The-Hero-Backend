@@ -19,7 +19,7 @@ module.exports = {
                 'ongs.uf'
             ]);
 
-        response.header('x-total-count', count['count(*)']);
+        response.header('total-items', count['count(*)']);
         return response.json(incidents);
     },
 
