@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.use(cors({
-    origin: 'https://lucaspb-bethehero.netlify.app/',
+    origin: 'https://lucaspb-bethehero.netlify.app',
   }));
 app.use(routes);
 
